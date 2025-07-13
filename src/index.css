@@ -5,44 +5,44 @@
 
 @layer base {
   :root {
-    --background: 215 25% 12%;
-    --foreground: 215 20% 95%;
+    --background: 0 20% 8%;
+    --foreground: 0 10% 95%;
 
-    --card: 215 20% 16%;
-    --card-foreground: 215 20% 95%;
+    --card: 0 15% 12%;
+    --card-foreground: 0 10% 95%;
 
-    --popover: 215 22% 14%;
-    --popover-foreground: 215 20% 95%;
+    --popover: 0 18% 10%;
+    --popover-foreground: 0 10% 95%;
 
-    --primary: 200 95% 55%;
-    --primary-foreground: 215 25% 12%;
+    --primary: 0 85% 60%;
+    --primary-foreground: 0 20% 8%;
 
-    --secondary: 210 40% 25%;
-    --secondary-foreground: 215 20% 95%;
+    --secondary: 10 30% 20%;
+    --secondary-foreground: 0 10% 95%;
 
-    --muted: 215 25% 22%;
-    --muted-foreground: 215 20% 70%;
+    --muted: 0 15% 18%;
+    --muted-foreground: 0 10% 70%;
 
-    --accent: 180 85% 60%;
-    --accent-foreground: 215 25% 12%;
+    --accent: 15 80% 55%;
+    --accent-foreground: 0 20% 8%;
 
     --destructive: 0 60% 50%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 215 25% 28%;
-    --input: 215 25% 28%;
-    --ring: 200 85% 55%;
+    --border: 0 15% 22%;
+    --input: 0 15% 22%;
+    --ring: 0 80% 60%;
 
     --radius: 0.5rem;
 
-    --sidebar-background: 215 30% 10%;
-    --sidebar-foreground: 215 20% 95%;
-    --sidebar-primary: 200 95% 55%;
-    --sidebar-primary-foreground: 215 25% 12%;
-    --sidebar-accent: 210 40% 22%;
-    --sidebar-accent-foreground: 215 20% 95%;
-    --sidebar-border: 215 25% 28%;
-    --sidebar-ring: 200 85% 55%;
+    --sidebar-background: 0 25% 6%;
+    --sidebar-foreground: 0 10% 95%;
+    --sidebar-primary: 0 85% 60%;
+    --sidebar-primary-foreground: 0 20% 8%;
+    --sidebar-accent: 10 30% 15%;
+    --sidebar-accent-foreground: 0 10% 95%;
+    --sidebar-border: 0 15% 22%;
+    --sidebar-ring: 0 80% 60%;
   }
 
   * {
@@ -60,14 +60,14 @@
   }
   
   .product-card {
-    @apply bg-card rounded-lg overflow-hidden transition-all duration-300 hover:shadow-[0_0_12px_rgba(14,165,233,0.6)] hover:scale-[1.02];
+    @apply bg-card rounded-lg overflow-hidden transition-all duration-300 hover:shadow-[0_0_12px_rgba(239,68,68,0.6)] hover:scale-[1.02];
   }
   
   .gradient-text {
-    @apply text-transparent bg-clip-text bg-gradient-to-r from-sky-blue to-teal-cyan;
+    @apply text-transparent bg-clip-text bg-gradient-to-r from-crimson-red to-flame-orange;
   }
   
   .glow-border {
-    @apply border border-sky-blue/40 rounded-md shadow-[0_0_8px_rgba(14,165,233,0.3)];
+    @apply border border-crimson-red/40 rounded-md shadow-[0_0_8px_rgba(239,68,68,0.3)];
   }
 }
