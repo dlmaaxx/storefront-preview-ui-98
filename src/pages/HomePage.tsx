@@ -21,7 +21,7 @@ const HomePage = () => {
         
         <div className="relative z-10 px-6 py-24 text-center flex flex-col items-center">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 gradient-text animate-fade-in">
-            DARK ARMY STORE
+            SAKIB STORE
           </h1>
           <p className="text-lg md:text-xl max-w-2xl mx-auto mb-8 text-foreground/90">
             Premium merchandise with a dark aesthetic. Express your style with our unique collection.
