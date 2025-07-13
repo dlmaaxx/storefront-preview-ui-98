@@ -124,44 +124,14 @@ const ProductDetailPage = () => {
 
       {/* Additional Product Details */}
       <Card className="p-6">
-        <h2 className="text-xl font-bold mb-4">Product Features</h2>
-        <div className="space-y-6">
-          
-          {/* AIMKILL Section */}
-          <div>
-            <h3 className="text-lg font-semibold text-primary mb-2">AIMKILL</h3>
-            <ul className="space-y-1 text-muted-foreground">
-              <li>[+] AIMKILL</li>
-              <li>[+] TELEKILL</li>
-              <li>[+] UP PLAYER</li>
-            </ul>
-          </div>
-
-          {/* ESPS Section */}
-          <div>
-            <h3 className="text-lg font-semibold text-primary mb-2">ESPS</h3>
-            <ul className="space-y-1 text-muted-foreground">
-              <li>[+] ESP LINE</li>
-              <li>[+] ESP BOX</li>
-              <li>[+] ESP NAME</li>
-              <li>[+] ESP HEALTH</li>
-            </ul>
-          </div>
-
-          {/* BRUTAL Section */}
-          <div>
-            <h3 className="text-lg font-semibold text-primary mb-2">BRUTAL(OFFSET HOOKED)</h3>
-            <ul className="space-y-1 text-muted-foreground">
-              <li>[+] NO RECOIL</li>
-              <li>[+] DOUBLE GUN</li>
-              <li>[+] ULTRA SWITCH (ALL GUN)</li>
-              <li>[+] UNLIMITED AMMO</li>
-              <li>[+] MEDIKIT RUN</li>
-              <li>[+] CAMERA UP</li>
-              <li>[+] SPEED HACK</li>
-            </ul>
-          </div>
-        </div>
+        <h2 className="text-xl font-bold mb-4">Product Details</h2>
+        <p className="text-muted-foreground">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. 
+          Maecenas eget justo sit amet nisi tincidunt fringilla. Sed euismod 
+          tellus vel metus ultrices, vel pharetra dui tincidunt. Fusce euismod, 
+          velit vel aliquam bibendum, nunc nisl aliquam nunc, vel aliquam nisl 
+          nunc vel nunc.
+        </p>
       </Card>
     </div>
   );
