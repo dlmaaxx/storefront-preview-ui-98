@@ -52,7 +52,7 @@ const CustomNavbar: React.FC = () => {
           <Link to="/" className="flex items-center gap-2 transition-transform duration-300 hover:scale-105">
             <div className="relative overflow-hidden rounded-full shadow-[0_0_15px_rgba(168,85,247,0.5)]">
               <img 
-                src="/lovable-uploads/befead1e-c7b5-4ad6-9754-d0993fd49443.png" 
+                src="https://i.postimg.cc/3wcGZdRg/image-removebg-preview-2.png" 
                 alt="Logo" 
                 className="h-12 w-12 object-cover" 
               />
