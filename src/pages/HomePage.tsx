@@ -15,7 +15,7 @@ const HomePage = () => {
       {/* Hero Section */}
       <section className="relative overflow-hidden rounded-xl">
         <div className="absolute inset-0 bg-gradient-to-br from-dark-purple via-medium-purple to-light-purple opacity-90" />
-        <div className="absolute inset-0 bg-[url('/lovable-uploads/716aa367-fb39-4f87-99f4-f84af3cd3d60.png')] bg-cover bg-center opacity-30 mix-blend-overlay" style={{
+        <div className="absolute inset-0 bg-[url('https://i.postimg.cc/FRNd937g/image.png')] bg-cover bg-center opacity-30 mix-blend-overlay" style={{
         backgroundPosition: "center 30%"
       }} />
         
