@@ -58,32 +58,7 @@ const HomePage = () => {
         </div>
       </section>
 
-      {/* Collections */}
-      <section className="grid grid-cols-1 md:grid-cols-2 gap-6">
-        <div className="relative h-80 rounded-xl overflow-hidden glow-border animate-pulse-glow">
-          <div className="absolute inset-0 bg-gradient-to-br from-medium-purple to-soft-pink opacity-90" />
-          <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1618160702438-9b02ab6515c9')] bg-cover bg-center opacity-30 mix-blend-overlay" />
-          <div className="relative h-full flex flex-col justify-center p-8">
-            <h3 className="text-2xl font-bold mb-2">Clothing Collection</h3>
-            <p className="mb-4 text-foreground/80">Unique designs for the digital underground.</p>
-            <Button variant="outline" className="self-start" asChild>
-              <Link to="/products">Explore</Link>
-            </Button>
-          </div>
-        </div>
-        
-        <div className="relative h-80 rounded-xl overflow-hidden glow-border animate-pulse-glow">
-          <div className="absolute inset-0 bg-gradient-to-br from-soft-pink to-light-purple opacity-90" />
-          <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1460925895917-afdab827c52f')] bg-cover bg-center opacity-30 mix-blend-overlay" />
-          <div className="relative h-full flex flex-col justify-center p-8">
-            <h3 className="text-2xl font-bold mb-2">Accessories</h3>
-            <p className="mb-4 text-foreground/80">Complete your look with our premium accessories.</p>
-            <Button variant="outline" className="self-start" asChild>
-              <Link to="/products">Explore</Link>
-            </Button>
-          </div>
-        </div>
-      </section>
+   
 
       {/* CTA Section */}
       
