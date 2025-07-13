@@ -18,7 +18,7 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <Link to="/" className="flex items-center">
-            <span className="text-xl font-bold gradient-text">DARK ARMY</span>
+            <span className="text-xl font-bold gradient-text">SAKIB CHEATS</span>
           </Link>
 
           {/* Desktop Navigation */}
@@ -32,9 +32,7 @@ const Navbar = () => {
             <Link to="/design" className="text-foreground hover:text-primary transition-colors">
               Design
             </Link>
-            <Link to="/cheat" className="text-foreground hover:text-primary transition-colors">
-              Cheat Codes
-            </Link>
+           
             <Link to="/orders" className="text-foreground hover:text-primary transition-colors">
               Orders
             </Link>
