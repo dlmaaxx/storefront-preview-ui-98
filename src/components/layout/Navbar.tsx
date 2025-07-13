@@ -18,14 +18,15 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <Link to="/" className="flex items-center gap-2 transition-transform duration-300 hover:scale-105">
-            <div className="relative overflow-hidden rounded-lg shadow-[0_0_15px_rgba(239,68,68,0.5)]">
+            <div className="relative overflow-hidden rounded-full shadow-[0_0_15px_rgba(239,68,68,0.5)]">
               <img 
-                src="/lovable-uploads/95dff585-93d7-4e61-b728-d2877c5f82ce.png" 
-                alt="SAKIB CHEAT Logo" 
-                className="h-12 w-auto object-contain" 
+                src="https://i.postimg.cc/3wcGZdRg/image-removebg-preview-2.png" 
+                alt="Logo" 
+                className="h-10 w-10 object-cover" 
               />
-              <div className="absolute inset-0 bg-gradient-to-r from-crimson-red/20 to-transparent rounded-lg"></div>
+              <div className="absolute inset-0 bg-gradient-to-r from-crimson-red/30 to-transparent rounded-full"></div>
             </div>
+            <span className="text-xl font-bold gradient-text">SAKIB CHEATS</span>
           </Link>
 
           {/* Desktop Navigation */}
